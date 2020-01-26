@@ -1,0 +1,139 @@
+body {
+    margin: 0px;
+    padding : 0px; 
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.navbar{
+    
+    background-color: grey;
+    color: white;
+}
+
+.navbar h2 {
+    font-size: 20px;
+    margin-left: 100px;
+    margin-top: 20px;
+    text-align: left;
+   
+    /* display: flex; */
+    
+}
+
+.navbar .menu {
+    width: 50px;
+   box-align: center;
+    position: absolute;
+    
+    
+}
+
+.heading {
+    text-align: center;
+    margin-top: 150px;
+}
+
+.main-area p{
+    color: darkgray;
+}
+
+.btn{
+    text-align: center;
+    padding: 10px;
+}
+
+.btn1{
+    width: 150px;
+    height: 40px;
+    background-color: #0A79DF;
+    color: white;
+    border-radius: 5px;
+    font-size: .9rem;
+}
+
+.btn2{
+    width: 150px;
+    height: 40px;
+    background-color: darkgray;
+    color: white;
+    border-radius: 5px;
+    font-size: .9rem;
+}
+
+.card-area{
+    display: flex;
+}
+
+.card1{
+    /* background: cornsilk; */
+    margin-top: 200px;
+    border: darkgray 1px solid;
+    width: 400px;
+    margin-left: 100px;
+}
+
+.card1 p {
+    text-align: center;
+    font-size: 1rem;
+    
+}
+
+.card1 img {
+   width: 100%;
+}
+
+.card1 h6 {
+    margin-left: 340px;
+    margin-top: -20px;
+    font-size: .8rem;
+}
+
+.hover-btn{
+    width: 70px;
+    height: 30px;
+}
+
+.hover-btn-grp{
+    margin-left: 10px;
+}
+
+.hover-btn:hover {
+    background-color: rgb(87, 87, 87);
+    color: white;
+}
+
+footer {
+    margin-top: 100px;
+}
+
+  .back {
+      margin-left: 1330px;
+      margin-bottom: 300px;
+  }
+
+  .heading-bottom{
+      margin-left: 100px;
+      color :rgb(87, 87, 87) ;
+      font-style: normal;
+  }
+
+  .homepage , .guide, .back {
+      text-decoration: none;
+      color: #0A79DF;
+  }
+
+ .back:hover{
+    text-decoration: underline;
+}
+
+.homepage:hover{
+    text-decoration: underline;
+}
+
+.guide:hover{
+    text-decoration: underline;
+}
+
+.msg{
+    margin-top: 0px;
+}
